@@ -30,12 +30,14 @@ The file was committed and pushed to GitHub, making the secret publicly visible.
 Step 3: Risk Identification
 
 The risk of exposing sensitive credentials was identified and explained.
+
 Step 4: Secure Fix Using .gitignore
 
 A .gitignore file was created to prevent sensitive files from being committed:
 
 config.py
 .env
+
 Step 5: Secure Password Handling
 
 The hardcoded password was removed and replaced with an environment variable:
