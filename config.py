@@ -1,2 +1,4 @@
-DB_USER = "admin"
-DB_PASSWORD = "admin123"
+import os
+
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+
